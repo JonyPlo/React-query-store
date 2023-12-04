@@ -15,7 +15,7 @@ const routes = [
 export const NavBar = () => {
 
   return (
-    <Navbar>
+    <Navbar position="static">
       <NavbarBrand>
         <AcmeLogo />
         <p className="font-bold text-inherit">ACME</p>
