@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { NextUIProvider } from '@nextui-org/react'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router/router.tsx'
-import { TanStackProvider } from './router/plugins/TanStackProvider.tsx'
+import { TanStackProvider } from './products/plugins/TanStackProvider.tsx'
 
 import './index.css'
 
